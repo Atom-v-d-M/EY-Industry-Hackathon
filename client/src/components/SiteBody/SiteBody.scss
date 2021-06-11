@@ -106,5 +106,11 @@
         font-weight: 700;
         font-size: 20px;
         line-height: 18px;
+        transition: 0.3s;
+
+        &:hover {
+            color: $secondary-color5;
+            background-color: $secondary-color1;
+        }
     }
 }

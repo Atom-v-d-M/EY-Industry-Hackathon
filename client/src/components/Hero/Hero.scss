@@ -10,20 +10,22 @@
     &__container {
         height: 100%;
         display: flex;
-        padding-top: 192px;
+        padding-top: 100px;
         align-items: flex-start;
         width: $maxcontent-width;
     }
 
     &__body {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
     }
 
     &__copy-container {
+        width: 50%;
         display: flex;
         flex-direction: column;
+        margin-bottom: 6rem;
     }
 
     &__title {
@@ -32,7 +34,7 @@
         font-size: 72px;
         line-height: 86px;
         letter-spacing: 1px;
-        width: 60%;
+        width: 100%;
         color: $primary-color1;
         margin-bottom: 2rem;
     }
@@ -59,14 +61,23 @@
     }
 
     &__aside {
-
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
     }
 
     &__figure {
+        margin: 0;
+        width: 450px;
+        height: 650px;
+        overflow: hidden;
+        display: flex;
+        justify-content: flex-end;
 
     }
 
     &__hero-image {
-
+        width: 350px;
+        object-position: 18px 0px;
     }
 }

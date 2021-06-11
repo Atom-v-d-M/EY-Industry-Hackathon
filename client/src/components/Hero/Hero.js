@@ -1,5 +1,6 @@
 import './Hero.scss';
-import appleDownload from '../../assets/images/appleDownload.png'
+import appleDownload from '../../assets/images/appleDownload.svg'
+import googleDownload from '../../assets/images/googleDownload.svg'
 
 function Hero () {
     return (
@@ -11,7 +12,7 @@ function Hero () {
                         <p className="primary-hero__subtitle">Rescue food from waste while enjoying a great meal for less.</p>
                         <div className="primary-hero__icon-container">
                             <img src={appleDownload} alt="apple download link" className="primary-hero__image primary-hero__image--apple"/>
-                            <img src={appleDownload} alt="apple download link" className="primary-hero__image"/>
+                            <img src={googleDownload} alt="google download link" className="primary-hero__image"/>
                         </div>
                     </div>
                     <aside className="primary-hero__aside">

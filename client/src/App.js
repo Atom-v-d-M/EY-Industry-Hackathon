@@ -2,6 +2,7 @@ import { Component } from "react";
 import './App.scss'
 import PrimaryHeader from './components/PrimaryHeader/PrimaryHeader'
 import Hero from './components/Hero/Hero'
+import SiteBody from './components/SiteBody/SiteBody'
 
 class App extends Component {
 
@@ -12,7 +13,7 @@ class App extends Component {
           <PrimaryHeader />
           <Hero />
         </div>
-        <div>hello</div>
+        <SiteBody />
 
       </div>
     );

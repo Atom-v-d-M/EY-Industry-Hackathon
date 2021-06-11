@@ -1,0 +1,66 @@
+@use '../../partials/variables' as *;
+@use '../../partials/mixins' as *;
+
+.site-body {
+    width: 100%;
+}
+
+.primary-body-section {
+    @include flex-center;
+    width: 100%;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: $maxcontent-width;
+        overflow: hidden;
+
+        &--reverse {
+            flex-direction: row-reverse;
+        }
+    }
+
+    &__body {
+        margin-top: 1.5rem;
+        width: 50%;
+    }
+
+    &__title {
+        color: $primary-color1;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    &__description {
+        // width: 85%;
+        color: $secondary-color1;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    &__icon-container {
+
+    }
+
+    &__icon {
+
+    }
+
+    &__aside {
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__figure {
+        margin: 0;
+        overflow: hidden;
+    }
+
+    &__image {
+
+    }
+}

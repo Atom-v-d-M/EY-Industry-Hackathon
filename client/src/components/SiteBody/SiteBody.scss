@@ -124,8 +124,15 @@
         }
     }
 
-    &__form {
+    &__form-container {
         width: 50%;
+        height: 449px;
+        display: flex;
+        align-items: center;
+    }
+
+    &__form {
+        width: 100%;
         margin-top: 24px;
         height: 365px;
         background-color: $secondary-color5;

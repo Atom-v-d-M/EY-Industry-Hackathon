@@ -40,24 +40,26 @@ class ContactForm extends Component {
                                 <a href="#" className="primary-body-section__button">Contact Us</a>
                             </div>
                         </div>
-                        <form onSubmit={this.handleFormSubmit} className="primary-body-section__form">
-                            <label className="primary-body-section__label">
-                                Business
-                                <input type="text" className="primary-body-section__input" placeholder="Enter your business's name"/>
-                            </label>
-                            <label className="primary-body-section__label">
-                                Contact Name
-                                <input type="text" className="primary-body-section__input" placeholder="Who should we contact?"/>
-                            </label>
-                            <label className="primary-body-section__label primary-body-section__label--email">
-                                Email
-                                <input type="email" className="primary-body-section__input" placeholder="Enter your business's email"/>
-                            </label>
-                            <div className="primary-body-section__form-button-container">
-                                <p onClick={(e) => this.handleFormCancel(e)} className="primary-body-section__button primary-body-section__button--form-cancel">Cancel</p>
-                                <button className="primary-body-section__button primary-body-section__button--form-submit">Submit</button>
-                            </div>
-                        </form>
+                        <div className="primary-body-section__form-container">
+                            <form onSubmit={this.handleFormSubmit} className="primary-body-section__form">
+                                <label className="primary-body-section__label">
+                                    Business
+                                    <input type="text" className="primary-body-section__input" placeholder="Enter your business's name"/>
+                                </label>
+                                <label className="primary-body-section__label">
+                                    Contact Name
+                                    <input type="text" className="primary-body-section__input" placeholder="Who should we contact?"/>
+                                </label>
+                                <label className="primary-body-section__label primary-body-section__label--email">
+                                    Email
+                                    <input type="email" className="primary-body-section__input" placeholder="Enter your business's email"/>
+                                </label>
+                                <div className="primary-body-section__form-button-container">
+                                    <p onClick={(e) => this.handleFormCancel(e)} className="primary-body-section__button primary-body-section__button--form-cancel">Cancel</p>
+                                    <button className="primary-body-section__button primary-body-section__button--form-submit">Submit</button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </article>
             )

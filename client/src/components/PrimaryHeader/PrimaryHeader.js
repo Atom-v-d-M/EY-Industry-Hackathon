@@ -15,10 +15,10 @@ function PrimaryHeader () {
                             <a href="#" className="primary-header__link">Home</a>
                         </li>
                         <li className="primary-header__item">
-                            <a href="#" className="primary-header__link">About Us</a>
+                            <a href="#About Us" className="primary-header__link">About Us</a>
                         </li>
                         <li className="primary-header__item">
-                            <a href="#" className="primary-header__link">Contact</a>
+                            <a href="#Contact" className="primary-header__link">Contact</a>
                         </li>
                     </ul>
                 </nav>

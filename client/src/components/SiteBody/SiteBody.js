@@ -6,7 +6,7 @@ import contract from '../../assets/images/contract.svg'
 function SiteBody () {
     return (
         <main className="site-body">
-            <article className="primary-body-section">
+            <article className="primary-body-section" id="About Us">
                 <div className="primary-body-section__container">
                     <div className="primary-body-section__body">
                         <h2 className="primary-body-section__title">What We Do</h2>
@@ -17,7 +17,7 @@ function SiteBody () {
                     </div>
                     <aside className="primary-body-section__aside">
                         <figure className="primary-body-section__figure">
-                            <img src={eatingTogether} alt="Two people sitting at a table eating food" className="primary-body-section__image"/>
+                            <img src={eatingTogether} alt="Two people sitting at a table eating food" className="primary-body-section__image primary-body-section__image--about"/>
                         </figure>
                     </aside>
                 </div>
@@ -30,12 +30,12 @@ function SiteBody () {
                     </div>
                     <aside className="primary-body-section__aside">
                         <figure className="primary-body-section__figure">
-                            <img src={womanWithPhone} alt="Two people sitting at a table eating food" className="primary-body-section__image"/>
+                            <img src={womanWithPhone} alt="Two people sitting at a table eating food" className="primary-body-section__image primary-body-section__image--theApp"/>
                         </figure>
                     </aside>
                 </div>
             </article>
-            <article className="primary-body-section">
+            <article className="primary-body-section primary-body-section--no-margin" id="Contact">
                 <div className="primary-body-section__container">
                     <div className="primary-body-section__body">
                         <h2 className="primary-body-section__title">Become A Partner</h2>
@@ -43,7 +43,7 @@ function SiteBody () {
                     </div>
                     <aside className="primary-body-section__aside">
                         <figure className="primary-body-section__figure">
-                            <img src={contract} alt="Two people sitting at a table eating food" className="primary-body-section__image"/>
+                            <img src={contract} alt="Two people sitting at a table eating food" className="primary-body-section__image primary-body-section__image--contact"/>
                         </figure>
                     </aside>
                 </div>

@@ -8,6 +8,12 @@
 .primary-body-section {
     @include flex-center;
     width: 100%;
+    margin-bottom: 217px;
+    padding-top: 25px;
+
+    &--no-margin {
+        margin-bottom: 0;
+    }
 
     &__container {
         display: flex;
@@ -23,7 +29,7 @@
 
     &__body {
         margin-top: 1.5rem;
-        width: 50%;
+        width: 45%;
     }
 
     &__title {
@@ -42,7 +48,7 @@
     }
 
     &__icon-container {
-
+        @include flex-center;
     }
 
     &__icon {
@@ -62,5 +68,13 @@
 
     &__image {
 
+        &--about {
+            object-position: 35px 0px;
+        }
+
+        &--contact {
+            width: 500px;
+        }
+        
     }
 }

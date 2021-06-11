@@ -13,14 +13,14 @@
         display: flex;
         align-items: center;
         width: $maxcontent-width;
-        height: 74px;
+        height: 4.625rem;
         justify-content: space-between;
     }
 
     &__logo-container {
         display: flex;
         align-items: center;
-        width: 400px;
+        width: 25rem;
         height: 100%;
     }
 
@@ -38,7 +38,7 @@
 
     &__nav {
         display: flex;
-        width: 300px;
+        width: 18.75rem;
     }
 
     &__list {

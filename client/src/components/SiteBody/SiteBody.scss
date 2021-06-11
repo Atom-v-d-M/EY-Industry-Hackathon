@@ -8,8 +8,8 @@
 .primary-body-section {
     @include flex-center;
     width: 100%;
-    margin-bottom: 217px;
-    padding-top: 25px;
+    margin-bottom: 13.5625rem;
+    padding-top: 1.5625rem;
 
     &--no-margin {
         margin-bottom: 0;
@@ -41,15 +41,15 @@
     &__title {
         color: $primary-color1;
         font-weight: 700;
-        font-size: 36px;
-        line-height: 48px;
+        font-size: 2.25rem;
+        line-height: 3rem;
     }
 
     &__description {
         color: $secondary-color1;
         font-weight: 400;
-        font-size: 16px;
-        line-height: 26px;
+        font-size: 1rem;
+        line-height: 1.625rem;
 
         &--contact {
             width: 82%;
@@ -88,7 +88,7 @@
     }
 
     &__button-container {
-        margin-top: 78px;
+        margin-top: 4.875rem;
         width: 100%;
         display: flex;
     }
@@ -100,8 +100,8 @@
         background-color: $secondary-color5;
         border-radius: 5px;
         font-weight: 700;
-        font-size: 20px;
-        line-height: 18px;
+        font-size: 1.25rem;
+        line-height: 1.125rem;
         transition: 0.3s;
 
         &:hover {
@@ -126,15 +126,15 @@
 
     &__form-container {
         width: 50%;
-        height: 449px;
+        height: 28.0625rem;
         display: flex;
         align-items: center;
     }
 
     &__form {
         width: 100%;
-        margin-top: 24px;
-        height: 365px;
+        margin-top: 1.5rem;
+        height: 22.8125rem;
         background-color: $secondary-color5;
         border-radius: 5px;
         padding: 1rem;
@@ -151,8 +151,8 @@
         align-items: flex-start;
         color: $secondary-color1;
         font-weight: 700;
-        font-size: 20px;
-        line-height: 18px;
+        font-size: 1.25rem;
+        line-height: 1.125rem;
         margin-bottom: 2rem;
 
         &--email {
@@ -162,15 +162,15 @@
 
     &__input {
         width: 100%;
-        margin-top: 10px;
+        margin-top: 0.625rem;
         height: 2.5rem;
         padding: 0.5rem 1rem;
         border-radius: 5px;
         border: none;
         color: $primary-color1;
         font-weight: 400;
-        font-size: 16px;
-        line-height: 26px;
+        font-size: 1rem;
+        line-height: 1.625rem;
 
         &::placeholder {
             color: $primary-color1;

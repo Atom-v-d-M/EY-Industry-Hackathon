@@ -14,6 +14,20 @@ class ContactForm extends Component {
         })
     }
 
+    handleFormCancel = (e) => {
+        e.preventDefault();
+        this.setState({
+            pageLayout: "default"
+        })
+    }
+
+    handleFormSubmit = (e) => {
+        e.preventDefault();
+        this.setState({
+            pageLayout: "default"
+        })
+    }
+
     render () {
         let form = () => {
             return (
@@ -26,7 +40,7 @@ class ContactForm extends Component {
                                 <a href="#" className="primary-body-section__button">Contact Us</a>
                             </div>
                         </div>
-                        <form className="primary-body-section__form">
+                        <form onSubmit={this.handleFormSubmit} className="primary-body-section__form">
                             <label className="primary-body-section__label">
                                 Business
                                 <input type="text" className="primary-body-section__input" placeholder="Enter your business's name"/>
@@ -40,8 +54,8 @@ class ContactForm extends Component {
                                 <input type="email" className="primary-body-section__input" placeholder="Enter your business's email"/>
                             </label>
                             <div className="primary-body-section__form-button-container">
-                                <p className="primary-body-section__button primary-body-section--form-cancel">Cancel</p>
-                                <button className="primary-body-section__button primary-body-section--form-submit">Submit</button>
+                                <p onClick={(e) => this.handleFormCancel(e)} className="primary-body-section__button primary-body-section__button--form-cancel">Cancel</p>
+                                <button className="primary-body-section__button primary-body-section__button--form-submit">Submit</button>
                             </div>
                         </form>
                     </div>

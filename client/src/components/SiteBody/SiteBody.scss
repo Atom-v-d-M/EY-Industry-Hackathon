@@ -114,10 +114,16 @@
         }
 
         &--form-submit {
+            margin: 0;
+            margin-top: 1rem;
+            color: $secondary-color5;
             border: none;
+            background-color: $secondary-color1;
         }
 
         &--form-cancel {
+            margin: 0;
+            margin-top: 1rem;
             border: none;
         }
     }
@@ -159,6 +165,9 @@
         border-radius: 5px;
         border: none;
         color: $primary-color1;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
 
         &::placeholder {
             color: $primary-color1;

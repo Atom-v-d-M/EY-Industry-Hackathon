@@ -2,63 +2,11 @@ import './SiteBody.scss';
 import { Component } from "react";
 import eatingTogether from '../../assets/images/eatingTogether.svg'
 import womanWithPhone from '../../assets/images/womanWithPhone.svg'
-// import contract from '../../assets/images/contract.svg'
 import ContactForm from '../ContactForm/ContactForm'
 import toronto from '../../assets/images/toronto.svg'
 
 class SiteBody extends Component {
-
-    // state = {
-    //     pageLayout: "default"
-    // }
-
-    // handleClick = () => {
-    //     this.setState({
-    //         pageLayout: "contactForm"
-    //     })
-    // }
-
     render () {
-        // let form = () => {
-        //     return (
-        //         <article className="primary-body-section primary-body-section--no-margin" id="Contact">
-        //             <div className="primary-body-section__container">
-        //                 <div className="primary-body-section__body">
-        //                     <h2 className="primary-body-section__title">Become A Partner</h2>
-        //                     <p className="primary-body-section__description primary-body-section__description--contact">Become a partner to access a wide network of customers from all over the city looking for new, affordable and delicious food. Save money while playing your part in reducing food wastage and shortage while helping the greater good.</p>
-        //                     <div className="primary-body-section__button-container">
-        //                         <a href="#" className="primary-body-section__button">Contact Us</a>
-        //                     </div>
-        //                 </div>
-        //                 <form className="primary-body-section">
-
-        //                 </form>
-        //             </div>
-        //         </article>
-        //     )
-        // }
-
-        // let pageDefault = () => {
-        //     return (
-        //         <article className="primary-body-section primary-body-section--no-margin" id="Contact">
-        //             <div className="primary-body-section__container">
-        //                 <div className="primary-body-section__body">
-        //                     <h2 className="primary-body-section__title">Become A Partner</h2>
-        //                     <p className="primary-body-section__description primary-body-section__description--contact">Become a partner to access a wide network of customers from all over the city looking for new, affordable and delicious food. Save money while playing your part in reducing food wastage and shortage while helping the greater good.</p>
-        //                     <div className="primary-body-section__button-container">
-        //                         <a href="#" className="primary-body-section__button" onClick={this.handleClick}>Contact Us</a>
-        //                     </div>
-        //                 </div>
-        //                 <aside className="primary-body-section__aside">
-        //                     <figure className="primary-body-section__figure">
-        //                         <img src={contract} alt="Two people sitting at a table eating food" className="primary-body-section__image primary-body-section__image--contact"/>
-        //                     </figure>
-        //                 </aside>
-        //             </div>
-        //         </article>
-        //     )
-        // }
-
         return (
             <main className="site-body">
                 <article className="primary-body-section" id="About Us">
